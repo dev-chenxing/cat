@@ -5,10 +5,6 @@ block vars
   - bodyClass = "cat";
 
 block content
-  // Main
-  main.main
-    // Section
-    section.section
-      .container
-        h2 This is a cat.
-        include partials/cat.pug
+  div(class="container flow")
+    h2 This is a cat.
+    include partials/cat.pug

@@ -1,0 +1,38 @@
+- var siteTitle = "陳刑";
+- var siteDescription = "This is a useless website | 這是一個沒用的網站";
+- var baseUrl = "https://cat.chenxing.io";
+- var pageTitle = "";
+- var bodyClass = "";
+
+block vars
+
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="description", content=siteDescription)
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title= pageTitle + " - " + siteTitle
+
+    //- OG meta tags
+    meta(property="og:type", content="website")
+    meta(property="og:title", content=siteTitle)
+    meta(property="og:description", content=siteDescription)
+    meta(property="og:image", content=baseUrl + "/images/cat.png")
+    meta(property="og:url", content=baseUrl)
+
+    //- link(href="css/style.css", rel="stylesheet")
+    link(rel="icon", type="image/x-icon", href="/images/favicon.ico")
+  body(class=bodyClass)
+    // Wrapper
+    .wrapper
+
+      //- Main
+      block content
+
+      // Footer
+      footer.footer
+        .container
+          p @chenxing.io
+
+    script(src="js/scripts.js")

@@ -1,0 +1,14 @@
+extends ./layouts/default.pug
+
+block vars
+  - pageTitle = "Cat";
+  - bodyClass = "cat";
+
+block content
+  // Main
+  main.main
+    // Section
+    section.section
+      .container
+        h2 This is a cat.
+        include partials/cat.pug

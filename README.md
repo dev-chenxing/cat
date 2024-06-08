@@ -38,3 +38,17 @@ npm install pug-cli -g
 ```bash
 pug templates/index.pug --out site
 ```
+
+## ⛩️ Jinja2
+
+安裝Jinja2包
+
+```bash
+pip install jinja2
+```
+
+編譯`Python`腳本生成`Markdown`
+
+```bash
+python python/generate_cat.py
+```

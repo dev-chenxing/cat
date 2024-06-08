@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "This is a cat website",
   "main": "src/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dev-chenxing/cat.git"
@@ -21,5 +19,8 @@
   "homepage": "https://github.com/dev-chenxing/cat#readme",
   "dependencies": {
     "hjson": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2"
   }
 }

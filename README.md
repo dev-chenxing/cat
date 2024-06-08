@@ -16,6 +16,15 @@ npm install -g less
 lessc less/cat.less site/css/style.css
 ```
 
+## } Hjson
+
+安裝Hjson包
+
+```bash
+npm install hjson
+node src/main.js
+```
+
 ## 🐶 Pug
 
 安裝Pug-Cli包

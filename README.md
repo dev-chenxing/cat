@@ -44,6 +44,8 @@ pug templates/index.pug --out site
 安裝Jinja2包
 
 ```bash
+python -m venv venv
+source venv/bin/activate
 pip install jinja2
 ```
 

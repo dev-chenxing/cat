@@ -16,7 +16,7 @@ npm install -g less
 lessc less/cat.less site/css/style.css
 ```
 
-## } Hjson
+## } JavaScript and Hjson
 
 安裝Hjson包
 
